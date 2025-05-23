@@ -1,0 +1,39 @@
+.prod-container {
+    background: var(--fade-black);
+    border: 2px solid var(--silver);
+    border-radius: 5px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    .prod-form {
+        width: 60%;
+        gap: 0.5rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .prod-form label {
+        width: 30%;
+    }
+    .prod-form input {
+        background: none;
+        border: none;
+        color: var(--white);
+        width: 70%;
+        text-align: right;
+    }
+    .prod-form ::placeholder {
+        font-style: italic;
+    }
+
+}
+.prod-item {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+    border-bottom: 1px solid var(--silver);
+}

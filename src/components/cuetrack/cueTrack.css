@@ -1,0 +1,29 @@
+.table-container {
+    background: var(--light-yellow);
+}
+.table-item {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    border-bottom: 1px solid var(--silver);
+    padding: 0.5rem;
+
+    input {
+        width: 80%;
+        border-radius: 5px;
+        padding: 0.1rem;
+        border: none;
+    }
+    select {
+        border-radius: 5px;
+    }
+}
+
+.table-item:hover {
+    cursor: pointer;
+    background: var(--light-yellow);
+}
+.input[type="text"]::placeholder {
+  color: grey;
+  font-style: italic;
+}

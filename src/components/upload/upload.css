@@ -1,0 +1,14 @@
+.upload-container {
+    width: 6rem;
+    height: 6rem;
+    display: grid;
+    place-content: center;
+    margin-top: 2rem;
+
+    .fa-solid, .fa-upload {
+        font-size: 6rem;
+    }
+    .fa-solid:hover {
+        cursor: pointer;
+    }
+}

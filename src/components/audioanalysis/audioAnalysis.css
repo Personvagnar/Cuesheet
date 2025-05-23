@@ -1,0 +1,29 @@
+.audio-analysis-table {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--silver);
+    border-radius: 5px;
+
+    .table-header-container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 1fr;
+        padding: 1rem;
+        border-bottom: 3px solid var(--silver);
+
+    }
+    .table-header-container h3 {
+        text-align: left;
+    }
+    .table-header-container p {
+        font-style: italic;
+    }
+}
+
+.audio-analysis-table h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 1rem;
+    letter-spacing: 4rem;
+}
