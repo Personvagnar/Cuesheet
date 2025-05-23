@@ -23,6 +23,8 @@
     }
     .audioTime {
       display: flex;
+      justify-content: center;
+      width: 10%;
       gap: 0.2rem;
     }
     input {
@@ -31,7 +33,7 @@
     }
 }
 .audio-player input[type="range"] {
-  -webkit-appearance: none; /* Chrome/Safari */
+  -webkit-appearance: none;
   height: 0.5rem;
   background: var(--silver);
   border-radius: 3px;
@@ -61,4 +63,8 @@
   border-radius: 50%;
   background: var(--gold);
   border: none;
+}
+
+.wavesurfer-container {
+  width: 100%;
 }

@@ -15,7 +15,10 @@ function Information({ onClick }) {
         <h3>About This Application</h3>
         <p>
           This web application allows users to upload music tracks, analyze their structure, and organize cue sheets with precise timing and usage data. It's designed to simplify music supervision workflows by integrating audio playback, timing controls, and metadata editing into one streamlined interface.
+        <br /><br />
+          This application is currently set -64dB, meaning music below this point will be considered as silent.
         </p>
+        <br />
       </article>
         <h3>Definitions</h3>
       <section className='information-definitions'>

@@ -4,6 +4,7 @@ function Upload({ onFileSelect }) {
   const handleChange = (event) => {
     const file = event.target.files[0];
     if (file) {
+      localStorage.clear();
       onFileSelect(file);
     }
   };
