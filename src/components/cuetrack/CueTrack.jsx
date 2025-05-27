@@ -45,8 +45,8 @@ function CueRow({ cue, idx, onCueClick }) {
     localStorage.setItem(`cue_${idx}`, JSON.stringify({
       ...fields,
       cueNumber: idx + 1,
-      timeIn: cue.timeIn,
-      timeOut: cue.timeOut,
+      timeIn: formatTime(cue.timeIn),
+      timeOut: formatTime(cue.timeOut),
       duration: cue.duration
     }));
   }, [fields, idx, cue]);

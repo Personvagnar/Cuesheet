@@ -3,7 +3,7 @@ import './footer.css'
 function Footer() {
   return (
     <section className="footer-container">
-      <h2>Footer content</h2>
+      <h1>Cuesheet my music</h1>
     </section>
   )
 }

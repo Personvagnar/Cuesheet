@@ -28,7 +28,7 @@ function AudioAnalysis({ file, onCueClick }) {
                 results.push({
                     time: Math.floor(i / sampleRate),
                     dB: isFinite(dB) ? dB.toFixed(2) : '-∞',
-                    exceeds: dB > -64
+                    exceeds: dB > -80
                 });
             }
 
